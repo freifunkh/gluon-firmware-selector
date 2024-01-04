@@ -355,6 +355,14 @@ var devices_recommended = {
     "TL-WR902AC": {"tp-link-tl-wr902ac-v3": "v3"},
     "WBS210": "tp-link-wbs210",
     "WBS510": "tp-link-wbs510",
+    "TL-WR841N/ND Mod (8M)": {"tp-link-tl-wr841n-nd-mod-8m-v8": "v8",
+                              "tp-link-tl-wr841n-nd-mod-8m-v9": "v9",
+                              "tp-link-tl-wr841n-nd-mod-8m-v10": "v10",
+                              "tp-link-tl-wr841n-nd-mod-8m-v11": "v11"},
+    "TL-WR841N/ND Mod (16M)": {"tp-link-tl-wr841n-nd-mod-16m-v8": "v8",
+                               "tp-link-tl-wr841n-nd-mod-16m-v9": "v9",
+                               "tp-link-tl-wr841n-nd-mod-16m-v10": "v10",
+                               "tp-link-tl-wr841n-nd-mod-16m-v11": "v11"},
   },
 
   "Ubiquiti": {
