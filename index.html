@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Firmware</title>
     <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="router.png" type="image/png">
   </head>
   <body>
@@ -13,25 +14,33 @@
       <meta http-equiv="refresh" content="0; url=/images/">
     </noscript>
 
-    <nav style="min-height: 52px;" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Navigation ein-/ausblenden</span>
-          <span class="glyphicon glyphicon-circle-arrow-down"></span>
-        </button>
-        <a class="navbar-brand" href="/">hannover.freifunk.net</a>
-      </div>
-      <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav">
+    <nav>
+      <a href="/" id="titlelink">hannover.freifunk.net</a>
+      <ul id="menu-wide">
+        <li><a href="/karte/">Karte</a></li>
+        <li><a href="/wiki/Freifunk/WebHome">Wiki</a></li>
+        <li><a href="/gluon-firmware-selector.html">Download</a></li>
+        <li><a href="/wiki/Freifunk/Unterstuetzer">Unterstützer</a></li>
+        <li><a href="https://stats.ffh.zone/d/L9p06EYWk/supernodes-totals">Statistiken</a></li>
+        <li><a href="https://hannover.freifunk.net/wiki/Freifunk/Chat">Webchat</a></li>
+        <li><a href="/friedhof/">Friedhof</a></li>
+        <li><a href="/wiki/Freifunk/Kontakt">Kontakt</a></li>
+      </ul>
+      <details id="menu-narrow">
+        <summary>
+          <img src="img/burger.svg">
+        </summary>
+        <ul>
           <li><a href="/karte/">Karte</a></li>
           <li><a href="/wiki/Freifunk/WebHome">Wiki</a></li>
-          <li><a href="/download.html">Download</a></li>
-          <li><a href="/wiki/Freifunk/Unterstuetzer">Unterst&uuml;tzer</a></li>
+          <li><a href="/gluon-firmware-selector.html">Download</a></li>
+          <li><a href="/wiki/Freifunk/Unterstuetzer">Unterstützer</a></li>
           <li><a href="https://stats.ffh.zone/d/L9p06EYWk/supernodes-totals">Statistiken</a></li>
-          <li><a href="https://webirc.hackint.org/#irc%3A%2F%2Firc.hackint.org/%23freifunkh">Webchat</a></li>
+          <li><a href="https://hannover.freifunk.net/wiki/Freifunk/Chat">Webchat</a></li>
+          <li><a href="/friedhof/">Friedhof</a></li>
           <li><a href="/wiki/Freifunk/Kontakt">Kontakt</a></li>
         </ul>
-      </div><!--/.navbar-collapse -->
+      </details>
     </nav>
 
     <div id="currentVersions">
